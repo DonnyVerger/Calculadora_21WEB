@@ -1,0 +1,35 @@
+/* .input{
+    display: flex;
+    justify-content: center;
+} */
+button{
+    width: 100px;
+    height: 60px;
+    /* background-color: aqua; */
+}
+.numerito{
+    background-color: rgb(173, 169, 169);
+}
+.resetear{
+    background-color: rgb(184, 143, 221);
+}
+.operando{
+    background-color: rgb(186, 144, 64);
+}
+.igual{
+    background-color: orangered;
+}
+input{
+    width:600px;
+    height: 100px;
+    background-color: green;
+    text-align:center;
+    font-family: Arial; font-size: 20pt; background-color: #00FF00"
+}
+.primerDiv{
+    margin-bottom: 10%;
+    /* background-color: green; */
+}
+.padreDiv{
+    background-color: rgb(26, 25, 25);
+}

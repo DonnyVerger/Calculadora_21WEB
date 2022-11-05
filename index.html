@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+<body>
+    <div class="container border">
+        <div class="padreDiv m-0 vh-100 row justify-content-center align-items-center">
+            <form id="formulario" class="form">
+                <div class="primerDiv d-flex justify-content-center">
+                    <input type="text" id="campo" style="font-family: Arial; font-size: 40pt;"">
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                        <button value="7" class="numerito" style="font-size: 20pt" id="7">7</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <button value="8" class="numerito" style="font-size: 20pt" id="8">8</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                       <button value="9" class="numerito" style="font-size: 20pt" id="9">9</button>   
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                       <button value="c" class="resetear" style="font-size: 20pt" id="c">C</button> 
+                    </div>
+                </div>
+                
+                <div class="row align-items-center justify-content-between mt-5">
+                    <div class="col d-flex justify-content-center">
+                        <button value="4" class="numerito" style="font-size: 20pt" id="4">4</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <button value="5" class="numerito" style="font-size: 20pt" id="5">5</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                       <button value="6" class="numerito" style="font-size: 20pt" id="6">6</button>   
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                       <button value="-" class="operando" style="font-size: 20pt" id="-">-</button> 
+                    </div>
+                </div>
+    
+                <div class="row align-items-center justify-content-between mt-5">
+                    <div class="col d-flex justify-content-center">
+                        <button value="1" class="numerito" style="font-size: 20pt" id="1">1</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <button value="2" class="numerito" style="font-size: 20pt" id="2">2</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                       <button value="3" class="numerito" style="font-size: 20pt" id="3">3</button>   
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <button value="+" class="operando" style="font-size: 20pt" id="+">+</button>
+                    </div>
+                </div>
+    
+                <div class="row align-items-center justify-content-between mt-5">
+                    <div class="col d-flex justify-content-center">
+                        <button value="0" class="numerito" style="font-size: 20pt" id="0">0</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <button value="*" class="operando" style="font-size: 20pt" id="*">*</button>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <button value="/" class="operando" style="font-size: 20pt" id="/">/</button>  
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <button value="=" class="igual" style="font-size: 20pt" id="=">=</button>
+                    </div>
+                </div>
+                <!-- Para no perderlos 
+                <button value="c" id="c">C</button>
+                <button value="0" id="0">0</button>
+                <button value="1" id="1">1</button>
+                <button value="2" id="2">2</button>  
+                <button value="3" id="3">3</button>
+                <button value="4" id="4">4</button>
+                <button value="5" id="5">5</button>
+                <button value="6" id="6">6</button>
+                <button value="7" id="7">7</button>
+                <button value="8" id="8">8</button>
+                <button value="9" id="9">9</button>
+                <button value="+" id="+">+</button>
+                <button value="-" id="-">-</button>
+                <button value="*" id="*">*</button>
+                <button value="/" id="/">/</button>
+                <button value="=" id="=">=</button> -->
+            </form>
+        </div>
+    </div>
+    <footer class="miFooter">Hecho por: <a href="https://github.com/DonnyVerger">Edwin Daniel Navarro García</a></footer>
+    <script src="./index.js"></script>
+</body>
+</html>
